@@ -1,0 +1,19 @@
+.error-page{
+    background-color: #12002b;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.error-title{
+    font-size: 5rem;
+    color: #fff;
+    padding-top: 5rem;
+}
+.error-p{
+    color: #fff;
+}
+.error-back{
+    color: #fff;
+}

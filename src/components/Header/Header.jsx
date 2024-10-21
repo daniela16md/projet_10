@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Logo from '../../assets/images/argentBankLogo.webp';
 import { FaSignOutAlt } from "react-icons/fa";
 import { FaUserCircle } from "react-icons/fa";
+
 import './Header.css'
 
 function Header() {

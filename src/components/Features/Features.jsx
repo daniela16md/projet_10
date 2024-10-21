@@ -1,7 +1,6 @@
 import React from 'react';
 import datas from '../../datas/data.json';
 import './Features.css'
-
 function Features() {
   return (
     <div className='features'>

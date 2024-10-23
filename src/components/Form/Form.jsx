@@ -21,8 +21,8 @@ function Form() {
       const response = await loginAPI({ email, password });
       const token = response.body.token;
 
-      // Stockage du token dans le state global via Redux
-      dispatch(login(token));
+      // Stockage du token dans le localstorage
+      localStorage.setItem('authtoken', token);
       navigate("/user");
 
     } catch (error) {
